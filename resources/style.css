@@ -64,7 +64,7 @@ nav .bi {
     width: 100%;
     background-position: bottom;
     background-image: linear-gradient(rgba(4, 9, 30, 0.094), rgba(4, 9, 30, 0.7)),
-    url("../resources/images/kitchen.jpg");
+    url("../../Cabinetry/resources/images/kitchen.jpg");
     background-size: cover;
     position: relative;
 }
