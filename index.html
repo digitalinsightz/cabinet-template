@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/style.css">
+    <meta name="robots" content="noindex">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <title>Your City Cabinet Maker | Best in Town</title>
+</head>
+<body>
+<!-- Navigation Section -->
+<nav>
+    <a href="./index.html"><img src="./resources/images/logo.png" alt="company logo"></a>
+        <div class="nav-links" id="nav-links">
+            <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</li></a>
+                <li>About Us</li>
+                <li>Projects</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+</nav>
+<!-- Banner Section -->
+<section class="banner">
+    <div class="text-box">
+        <h1>The Best Roll-Out Cabinets In Town</h1>
+        <p>For your kitchen, bathroom, garage, and more!</p>
+        <button class="hero-btn">Get a Quote</button>
+    </div>
+</section>
+<!-- Contact Section -->
+<section class="contact-banner">
+    <div class="left-content">
+        <h2>We provide innovative and smooth cabinetry solutions.</h2>
+    </div>
+    <div class="right-content">
+        <button class="contact-btn">Contact Us</button>
+    </div>
+</section>
+
+
+<!-- Javascript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
